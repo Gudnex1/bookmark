@@ -198,6 +198,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .top-40 {
     top: calc(var(--spacing) * 40);
   }
@@ -236,6 +239,9 @@
   }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
