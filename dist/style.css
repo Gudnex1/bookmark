@@ -511,6 +511,11 @@
       align-items: flex-start;
     }
   }
+  .lg\:px-7 {
+    @media (width >= 1020px) {
+      padding-inline: calc(var(--spacing) * 7);
+    }
+  }
   .lg\:text-left {
     @media (width >= 1020px) {
       text-align: left;
@@ -526,6 +531,12 @@
     @media (width >= 1020px) {
       font-size: var(--text-6xl);
       line-height: var(--tw-leading, var(--text-6xl--line-height));
+    }
+  }
+  .lg\:text-lg {
+    @media (width >= 1020px) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
     }
   }
 }
